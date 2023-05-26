@@ -2,6 +2,7 @@
 
 class Autentifikasi extends CI_Controller
 {
+
     public function index()
     {
         //jika statusnya sudah login, maka tidak bisa mengakses
@@ -99,7 +100,7 @@ class Autentifikasi extends CI_Controller
 
         //membuat rule untuk inputan nama agar tidak boleh kosong dengan membuat pesan error dengan
         //bahasa sendiri yaitu 'Nama Belum diisi'
-        $this->form_validation->set_rules('nama', 'Nama Lengkap', 'required', ['required' => 'Nama Belum diis!!']);
+        $this->form_validation->set_rules('nama', 'Nama Lengkap', 'required', ['required' => 'Nama Belum diisi!!']);
 
         //membuat rule untuk inputan email agar tidak boleh kosong, tidak ada spasi, format email harus valid
         //dan email belum pernah dipakai sama user lain dengan membuat pesan error dengan bahasa sendiri
