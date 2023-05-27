@@ -9,27 +9,27 @@
 		/>
 		<meta name="description" content="" />
 		<meta name="author" content="" />
-		<title>pustaka-booking | <?= $judul; ?></title>
+		<title>Pustaka Booking | <?= $judul; ?></title>
 		<!-- Custom fonts for this template-->
 		<link
-			href="<?= base_url('assets/'); ?>vendor/fontawesomefree/css/all.min.css"
+			href="<?= base_url('assets/vendor/fontawesome-free/css/all.min.css'); ?>"
 			rel="stylesheet"
 			type="text/css"
 		/>
 		<link
-			href="<?= base_url('assets/'); ?>datatable/datatables.css"
+			href="<?= base_url('assets/vendor/datatables/dataTables.bootstrap4.css'); ?>"
 			rel="stylesheet"
 			type="text/css"
 		/>
 		<script
 			type="text/javascript"
-			src="<?= base_url('assets/');
-       ?>datatable/jquery.dataTables.js'; ?>"
+			src="<?= base_url('assets/vendor/datatables/jquery.dataTables.js');
+       ?>"
 		></script>
 		<script
 			type="text/javascript"
-			src="<?= base_url('assets/');
-       ?>datatable/datatables.js'; ?>"
+			src="<?= base_url('assets/vendor/datatables/dataTables.bootstrap4.js');
+       ?>"
 		></script>
 		<link
 			href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,30
@@ -38,10 +38,10 @@
 		/>
 		<!-- Custom styles for this template-->
 		<link
-			href="<?= base_url('assets/'); ?>css/sb-admin-2.min.css"
+			href="<?= base_url('assets/css/sb-admin-2.min.css'); ?>"
 			rel="stylesheet"
 		/>
 	</head>
 	<body id="page-top">
 		<!-- Page Wrapper -->
-		<div id="wrapper"></div>
+		<div id="wrapper">
